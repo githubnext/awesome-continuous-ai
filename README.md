@@ -5,6 +5,8 @@
 ## Continuous Triage
 
 * [GenAI Issue Labeller](https://github.com/pelikhan/action-genai-issue-labeller) - a sample of using GenAIScript for automated labelling of issues
+* [Detect Duplicate Issues](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-duplicate-issues.yml) - an example of using GitHub Actions+Models for adhoc duplicate detection
+* [Detect Non-English Issues](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-non-english-issues.yml) - an example of using GitHub Actions+Models to detect issues in an unexpected language
 
 ## Continuous Documentation
 
