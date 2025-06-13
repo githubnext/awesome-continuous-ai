@@ -8,7 +8,8 @@
 
 ## Continuous Documentation
 
-* [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository 
+* [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
+* [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
 
 ## Continuous Optimization
 
