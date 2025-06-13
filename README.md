@@ -6,6 +6,10 @@
 
 * [GenAI Issue Labeller](https://github.com/pelikhan/action-genai-issue-labeller) - a sample of using GenAIScript for automated labelling of issues
 
+## Continuous Documentation
+
+* [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository 
+
 ## Continuous Optimization
 
 * [CodeFlash](https://www.codeflash.ai/), [GitHub App](https://github.com/marketplace/codeflash-ai) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
