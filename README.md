@@ -11,6 +11,11 @@
 * [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
 * [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
 
+## Continuous Code Review
+
+* [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
+* [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist" 
+
 ## Continuous Optimization
 
 * [CodeFlash](https://www.codeflash.ai/) ([GitHub App](https://github.com/marketplace/codeflash-ai)) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
