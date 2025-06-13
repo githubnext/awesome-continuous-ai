@@ -12,7 +12,7 @@
 
 ## Continuous Optimization
 
-* [CodeFlash](https://www.codeflash.ai/), [GitHub App](https://github.com/marketplace/codeflash-ai) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
+* [CodeFlash](https://www.codeflash.ai/) ([GitHub App](https://github.com/marketplace/codeflash-ai)) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
 
 ## Continuous Test Improvement
 
