@@ -9,6 +9,7 @@
 
 * [Summarize issues with GitHub Actions](https://docs.github.com/en/github-models/github-models-at-scale/use-models-at-scale#example-use-github-models-with-github-actions-to-summarize-issues) - Use GitHub Models with GitHub Actions to summarize issues
 * [GenAI Pull Request Descriptor](https://github.com/pelikhan/action-genai-pull-request-descriptor/) - a sample GenAIScript action that updates a pull request description.
+* [Video Asset Analyzer](https://github.com/pelikhan/action-genai-video-issue-analyzer) - a sample GenAIScript action that analyzes videos attached as assets to issues.
 
 ## Continuous Triage
 
