@@ -10,6 +10,7 @@
 * [Summarize issues with GitHub Actions](https://docs.github.com/en/github-models/github-models-at-scale/use-models-at-scale#example-use-github-models-with-github-actions-to-summarize-issues) - Use GitHub Models with GitHub Actions to summarize issues when they're closed
 * [GenAI Pull Request Descriptor](https://github.com/pelikhan/action-genai-pull-request-descriptor/) - a sample GenAIScript action that updates a pull request description.
 * [Video Asset Analyzer](https://github.com/pelikhan/action-genai-video-issue-analyzer) - a sample GenAIScript action that analyzes videos attached as assets to issues.
+* [Zine Meets Pull Requests](https://microsoft.github.io/genaiscript/blog/zine-prs/#zines) - the availability of new image generators like OpenAI gpt-image-1 opens the door to endless new ways to visualize and annotate software artifacts.
 
 ## Continuous Triage
 
