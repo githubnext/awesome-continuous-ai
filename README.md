@@ -33,7 +33,7 @@
 
 * [GenAI Code Commentor](https://github.com/pelikhan/action-genai-commentor/) - a sample of using GenAIScript for automated commenting of code using GitHub Actions and GitHub Models
 
-## Continuous Optimization
+## Continuous Code Optimization
 
 * [CodeFlash](https://www.codeflash.ai/) ([GitHub App](https://github.com/marketplace/codeflash-ai)) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
 
