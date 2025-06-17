@@ -28,6 +28,10 @@
 * [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist" 
 
+## Continuous Code Commenting
+
+* [GenAI Code Commentor](https://github.com/pelikhan/action-genai-commentor/) - a sample of using GenAIScript for automated commenting of code using GitHub Actions and GitHub Models
+
 ## Continuous Optimization
 
 * [CodeFlash](https://www.codeflash.ai/) ([GitHub App](https://github.com/marketplace/codeflash-ai)) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
