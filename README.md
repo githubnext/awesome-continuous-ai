@@ -5,9 +5,9 @@
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [GitHub Models](https://docs.github.com/en/github-models/)
 
-## Continuous Summarization
+## Continuous Team Communication
 
-* [Summarize issues with GitHub Actions](https://docs.github.com/en/github-models/github-models-at-scale/use-models-at-scale#example-use-github-models-with-github-actions-to-summarize-issues) - Use GitHub Models with GitHub Actions to summarize issues
+* [Summarize issues with GitHub Actions](https://docs.github.com/en/github-models/github-models-at-scale/use-models-at-scale#example-use-github-models-with-github-actions-to-summarize-issues) - Use GitHub Models with GitHub Actions to summarize issues when they're closed
 * [GenAI Pull Request Descriptor](https://github.com/pelikhan/action-genai-pull-request-descriptor/) - a sample GenAIScript action that updates a pull request description.
 * [Video Asset Analyzer](https://github.com/pelikhan/action-genai-video-issue-analyzer) - a sample GenAIScript action that analyzes videos attached as assets to issues.
 
