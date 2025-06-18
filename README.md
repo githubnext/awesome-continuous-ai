@@ -8,6 +8,7 @@
 ## Continuous Intelligence
 
 * [Official Claude Code GitHub Action](https://docs.anthropic.com/en/docs/claude-code/github-actions) - allows you to use Claude Code to build any custom AI workflow within Actions.
+* [Open Journals: Find Similar Papers](https://github.com/openjournals/find-similar-papers) - Find similar journal articles using OpenAI embeddings
 
 ## Continuous Team Communication
 
@@ -30,11 +31,13 @@
 
 * [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
 * [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
+* [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
 
 ## Continuous Code Review
 
 * [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
+* [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
 * [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
 
 ## Continuous Code Commenting
