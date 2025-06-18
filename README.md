@@ -39,7 +39,6 @@
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
 * [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
 * [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
-* [shippie](https://github.com/mattzcarey/shippie), Shippie uses Large Language Models to review code in your CI/CD pipeline.
 
 ## Continuous Code Commenting
 
