@@ -5,6 +5,11 @@
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [GitHub Models](https://docs.github.com/en/github-models/)
 
+## Continuous Intelligence
+
+* [Official Claude Code GitHub Action](https://docs.anthropic.com/en/docs/claude-code/github-actions) - allows you to use Claude Code to build any custom AI workflow within Actions.
+* [Open Journals: Find Similar Papers](https://github.com/openjournals/find-similar-papers) - Find similar journal articles using OpenAI embeddings
+
 ## Continuous Team Communication
 
 * [Summarize issues with GitHub Actions](https://docs.github.com/en/github-models/github-models-at-scale/use-models-at-scale#example-use-github-models-with-github-actions-to-summarize-issues) - Use GitHub Models with GitHub Actions to summarize issues when they're closed
@@ -19,16 +24,21 @@
 * [Detect Duplicate Issues, micro sample](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-duplicate-issues.yml) - an example of using GitHub Actions+Models for adhoc duplicate detection
 * [Detect Non-English Issues](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-non-english-issues.yml) - an example of using GitHub Actions+Models to detect issues in an unexpected language
 * [GitHub Action Investigator](https://microsoft.github.io/genaiscript/samples/gai/) - automatically analyze a GitHub Action Workflow Job logs and attempts to determine the root cause of the issue
+* [Ultralytics Actions](https://github.com/ultralytics/actions) comprehensive linting and formatting suite including AI labeling and summarization
+* [Automattic Isue Triage](https://github.com/Automattic/jetpack/tree/f1b24e51a215eb85e17de7844794d0cb512bfc42/projects/github-actions/repo-gardening) - automatic issue labeling
 
 ## Continuous Documentation
 
 * [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
 * [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
+* [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
 
 ## Continuous Code Review
 
 * [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
-* [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist" 
+* [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
+* [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
+* [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
 
 ## Continuous Code Commenting
 
