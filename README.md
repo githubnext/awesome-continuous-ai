@@ -39,6 +39,7 @@
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
 * [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
 * [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
+* [shippie](https://github.com/mattzcarey/shippie), Shippie uses Large Language Models to review code in your CI/CD pipeline.
 
 ## Continuous Code Commenting
 
@@ -52,3 +53,25 @@
 
 * [SoftwareTesting AI](https://softwaretesting.ai/) - A code quality platform that identifies coverage gaps and suggests how to resolve them
 * [DiffBlue](https://www.diffblue.com/ci-pipeline/) - Automate continuous unit testing at scale in CI
+
+## Programming Frameworks
+
+Any library that can invoke an LLM inference service could be used to create a workflow.
+Some of them have builtin support for GitHub Actions and/or GitHub Models.
+
+###  YAML (GitHub Actions Yaml)
+
+* [actions/ai-inference](https://github.com/actions/ai-inference): a standard GitHub Action for invoking LLMs direct from YAML
+
+### Shell Scripting:
+
+* [llm](https://llm.datasette.io/) and [llm-github-models](https://github.com/tonybaloney/llm-github-models) to run LLMs in shel scripting
+* [ast-grep](https://ast-grep.github.io/): A tool for analyzing and transforming code using abstract syntax trees (ASTs)
+
+### JavaScript/TypeScript
+
+* [GenAIScript](https://https://microsoft.github.io/genaiscript/), a scripting language for GitHub Actions that simplifies the use of AI models and tools in workflows
+
+### Markdown
+
+* [shippie](https://github.com/mattzcarey/shippie), uses Markdown based rules to define LLM-powered code reviews
