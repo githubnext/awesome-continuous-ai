@@ -20,8 +20,9 @@
 ## Continuous Triage
 
 * [GenAI Issue Labeller](https://github.com/pelikhan/action-genai-issue-labeller) - a sample of using GenAIScript for automated labelling of issues
-* [Detect Duplicate Issues, reusable action](https://github.com/pelikhan/action-genai-issue-dedup) - an example of a reusable action using using GitHub Actions, GitHub Models and GenAISCript for issue duplicate detection
-* [Detect Duplicate Issues, micro sample](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-duplicate-issues.yml) - an example of using GitHub Actions+Models for adhoc duplicate detection
+* **Detect Duplicate Issues** - AI-powered solutions for identifying duplicate issues in repositories
+  * [Reusable action](https://github.com/pelikhan/action-genai-issue-dedup) - an example of a reusable action using GitHub Actions, GitHub Models and GenAISCript for issue duplicate detection
+  * [Micro sample](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-duplicate-issues.yml) - an example of using GitHub Actions+Models for adhoc duplicate detection
 * [Detect Non-English Issues](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-non-english-issues.yml) - an example of using GitHub Actions+Models to detect issues in an unexpected language
 * [GitHub Action Investigator](https://microsoft.github.io/genaiscript/samples/gai/) - automatically analyze a GitHub Action Workflow Job logs and attempts to determine the root cause of the issue
 * [Ultralytics Actions](https://github.com/ultralytics/actions) comprehensive linting and formatting suite including AI labeling and summarization
@@ -37,7 +38,7 @@
 
 * [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
-* [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
+* [Shippie](https://github.com/mattzcarey/shippie) - AI-powered code review tool with secrets detection, bug fixes and more. TypeScript + Bun.
 * [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
 
 ## Continuous Code Commenting
@@ -73,4 +74,4 @@ Some of them have builtin support for GitHub Actions and/or GitHub Models.
 
 ### Markdown
 
-* [shippie](https://github.com/mattzcarey/shippie), uses Markdown based rules to define LLM-powered code reviews
+* [shippie](https://github.com/mattzcarey/shippie) - Markdown-based framework for defining LLM-powered code review rules
