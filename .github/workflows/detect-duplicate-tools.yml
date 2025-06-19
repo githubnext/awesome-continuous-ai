@@ -29,7 +29,8 @@ jobs:
         uses: actions/ai-inference@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          model: openai/gpt-4.1
+          model: openai/gpt-4o
+          max-tokens: 14000
           system-prompt: |
             Please analyze the README.md content and detect any duplicate
             tool entries. Look for:
@@ -56,7 +57,9 @@ jobs:
 
             Here is the README.md content to analyze:
           prompt: |
+            <README>
             ${{ steps.readme.outputs.content }}
+            </README>
       - name: If duplicates create issue
         if: contains(steps.detect-duplicates.outputs.response, 'Duplicate') && !contains(steps.detect-duplicates.outputs.response, '/OK/')
         run: |
