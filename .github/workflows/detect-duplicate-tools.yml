@@ -58,9 +58,8 @@ jobs:
       - name: If duplicates create issue
         if: contains(steps.detect-duplicates.outputs.response, 'Duplicate') && !contains(steps.detect-duplicates.outputs.response, '/OK/')
         run: |
-          echo "Creating issue for detected duplicates..."
           gh issue create --title "Duplicate Tools Detected" \
-            --body "${{ steps.detect-duplicates.outputs.response }}" \
+            --body-file ${{ steps.detect-duplicates.outputs.response-file }} \
             --label "genai,documentation"
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
