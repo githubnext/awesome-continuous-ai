@@ -1,5 +1,6 @@
 name: Detect Duplicate Tools
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'README.md'
@@ -29,7 +30,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           model: gpt-4o-mini
-          prompt: |
+          system-prompt: |
             Please analyze the README.md content and detect any duplicate
             tool entries. Look for:
 
@@ -49,9 +50,17 @@ jobs:
             - A recommendation on whether they should be consolidated or if
               they serve different purposes
 
-            If no duplicates are found, simply respond with "No duplicate
-            tools detected."
+            Use GitHub-flavored Markdown for formatting your response.
+
+            If no duplicates are found, simply respond with "/OK/"
 
             Here is the README.md content to analyze:
-
+          prompt: |
             ${{ steps.readme.outputs.content }}
+          max-tokens: 7000
+      - name: If duplicates create issue
+        if: contains(steps.detect-duplicates.outputs.response, '/OK/') == false
+        run: |
+          echo "Creating issue for detected duplicates..."
+          gh issue create --title "Duplicate Tools Detected" \
+            --body "${{ steps.detect-duplicates.outputs.response }}" \
