@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/ai-inference@main
+        id: detect-duplicates
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           model: openai/gpt-4o
