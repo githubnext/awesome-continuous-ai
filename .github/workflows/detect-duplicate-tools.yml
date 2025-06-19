@@ -60,7 +60,7 @@ jobs:
         run: |
           echo "Creating issue for detected duplicates..."
           gh issue create --title "Duplicate Tools Detected" \
-            --body "${{ steps.detect-duplicates.outputs.response }}\n@copilot get to work." \
+            --body "${{ steps.detect-duplicates.outputs.response }}" \
             --label "genai,documentation"
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
