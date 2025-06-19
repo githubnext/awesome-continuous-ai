@@ -29,7 +29,7 @@ jobs:
         uses: actions/ai-inference@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          model: gpt-4o-mini
+          model: openai/gpt-4.1
           system-prompt: |
             Please analyze the README.md content and detect any duplicate
             tool entries. Look for:
