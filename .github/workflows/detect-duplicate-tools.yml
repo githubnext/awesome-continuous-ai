@@ -51,6 +51,9 @@ jobs:
             If no duplicates are found, simply respond with "/OK/"
 
             Here is the README.md content to analyze:
+      - run: |
+          echo "Response from AI model:"
+          echo "${{ steps.detect-duplicates.outputs.response }}"
       - name: If duplicates create issue
         if: contains(steps.detect-duplicates.outputs.response, 'Duplicate') && !contains(steps.detect-duplicates.outputs.response, '/OK/')
         run: |
