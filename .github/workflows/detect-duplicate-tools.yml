@@ -54,8 +54,10 @@ jobs:
 
             ## Output Format
 
-            **If duplicates found, respond exactly:**
-            ```
+            **IMPORTANT: Respond in plain text format only. Do NOT wrap your response in markdown code blocks.**
+
+            **If duplicates found, respond exactly in this format:**
+
             DUPLICATES_FOUND
 
             ## Duplicate Analysis
@@ -73,15 +75,11 @@ jobs:
             [Same format]
 
             ## Code Snippets
-            ```markdown
             [Relevant README snippets showing the duplicates]
-            ```
-            ```
 
             **If no duplicates found, respond exactly:**
-            ```
+
             NO_DUPLICATES_FOUND
-            ```
 
             ## Example Duplicates to Look For
             - Tools appearing in multiple main sections (excluding Programming Frameworks)
