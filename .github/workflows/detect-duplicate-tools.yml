@@ -44,7 +44,7 @@ jobs:
             tool entry typically follows the format:
             * [Tool Name](URL) - description
 
-            If duplicates are found, please provide:
+            If duplicates are found, respond "Duplicate founds" and provide:
             - The duplicate entries with their section locations
             - The specific URLs or tool names that match
             - A recommendation on whether they should be consolidated or if
@@ -57,9 +57,8 @@ jobs:
             Here is the README.md content to analyze:
           prompt: |
             ${{ steps.readme.outputs.content }}
-          max-tokens: 200
       - name: If duplicates create issue
-        if: contains(steps.detect-duplicates.outputs.response, '/OK/') == false
+        if: contains(steps.detect-duplicates.outputs.response, 'Duplicate') && !contains(steps.detect-duplicates.outputs.response, '/OK/')
         run: |
           echo "Creating issue for detected duplicates..."
           gh issue create --title "Duplicate Tools Detected" \
