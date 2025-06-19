@@ -1,6 +1,10 @@
 # Awesome Continuous AI
 
-[Continuous AI](https://githubnext.com/projects/continuous-ai/) is any use of automated AI to support software collaboration on any platform. The term aligns with the established concept of Continuous Integration/Continuous Deployment (CI/CD). Just as CI/CD transformed software development by automating integration and deployment, Continuous AI covers the ways in which AI can be used to automate and enhance collaboration workflows.
+**[Continuous AI](https://githubnext.com/projects/continuous-ai/) is any use of automated AI to support software collaboration on any platform.** The term aligns with the established concept of Continuous Integration/Continuous Deployment (CI/CD). Just as CI/CD transformed software development by automating integration and deployment, Continuous AI covers the ways in which AI can be used to automate and enhance collaboration workflows.
+
+* [GitHub Next Project](https://githubnext.com/projects/continuous-ai/)
+
+On GitHub today, Continuous AI is supported in initial form by the combination of GitHub Actions and GitHub Models. The synergy between these features is at the core of Continuous AI at GitHub.
 
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [GitHub Models](https://docs.github.com/en/github-models/)
