@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-          
+
       - name: Detect duplicate tools in README.md
         uses: actions/ai-inference@v1
         with:
@@ -27,18 +27,24 @@ jobs:
           model: gpt-4o-mini
           files: README.md
           prompt: |
-            Please analyze the README.md content and detect any duplicate tool entries. Look for:
-            
+            Please analyze the README.md content and detect any duplicate
+            tool entries. Look for:
+
             1. Tools with the same GitHub repository URL (exact matches)
-            2. Tools with very similar names (case-insensitive, ignoring punctuation)  
-            3. Tools that appear to be the same product but listed in different sections
-            
-            Focus on the bulleted lists under each section heading. Each tool entry typically follows the format:
+            2. Tools with very similar names (case-insensitive, ignoring
+               punctuation)
+            3. Tools that appear to be the same product but listed in
+               different sections
+
+            Focus on the bulleted lists under each section heading. Each
+            tool entry typically follows the format:
             * [Tool Name](URL) - description
-            
+
             If duplicates are found, please provide:
             - The duplicate entries with their section locations
             - The specific URLs or tool names that match
-            - A recommendation on whether they should be consolidated or if they serve different purposes
-            
-            If no duplicates are found, simply respond with "No duplicate tools detected."
+            - A recommendation on whether they should be consolidated or if
+              they serve different purposes
+
+            If no duplicates are found, simply respond with "No duplicate
+            tools detected."
