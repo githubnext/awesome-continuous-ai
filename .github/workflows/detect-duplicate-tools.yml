@@ -46,9 +46,9 @@ jobs:
             - The specific URLs or tool names that match
             - A recommendation on whether they should be consolidated or if
               they serve different purposes
+            Format your information so that the GitHub Copilot Agent can easily understand and act upon it.
 
             Use GitHub-flavored Markdown for formatting your response.
-
             If no duplicates are found, simply respond with "/OK/"
 
             Here is the README.md content to analyze:
