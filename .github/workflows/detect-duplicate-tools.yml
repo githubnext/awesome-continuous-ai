@@ -20,75 +20,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Read README.md content
-        id: read_readme
-        run: |
-          README_CONTENT=$(cat README.md)
-          echo "content<<EOF" >> $GITHUB_OUTPUT
-          echo "$README_CONTENT" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: Detect duplicate tools
-        id: detect_duplicates
-        uses: actions/github-script@v7.0.1
-        env:
-          README_CONTENT: ${{ steps.read_readme.outputs.content }}
+      - name: Detect duplicate tools in README.md
+        uses: actions/ai-inference@v1
         with:
-          script: |
-            const readmeContent = process.env.README_CONTENT;
-            
-            const response = await fetch('https://models.inference.ai.azure.com/chat/completions', {
-              method: 'POST',
-              headers: {
-                'Authorization': `Bearer ${{ secrets.GITHUB_TOKEN }}`,
-                'Content-Type': 'application/json'
-              },
-              body: JSON.stringify({
-                model: 'gpt-4o-mini',
-                messages: [{
-                  role: 'user',
-                  content: `Please analyze the following README.md content and detect any duplicate tool entries. Look for:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          model: gpt-4o-mini
+          files: README.md
+          prompt: |
+            Please analyze the README.md content and detect any duplicate
+            tool entries. Look for:
 
             1. Tools with the same GitHub repository URL (exact matches)
-            2. Tools with very similar names (case-insensitive, ignoring punctuation)
-            3. Tools that appear to be the same product but listed in different sections
+            2. Tools with very similar names (case-insensitive, ignoring
+               punctuation)
+            3. Tools that appear to be the same product but listed in
+               different sections
 
-            Focus on the bulleted lists under each section heading. Each tool entry typically follows the format:
+            Focus on the bulleted lists under each section heading. Each
+            tool entry typically follows the format:
             * [Tool Name](URL) - description
 
             If duplicates are found, please provide:
             - The duplicate entries with their section locations
             - The specific URLs or tool names that match
-            - A recommendation on whether they should be consolidated or if they serve different purposes
+            - A recommendation on whether they should be consolidated or if
+              they serve different purposes
 
-            If no duplicates are found, simply respond with "No duplicate tools detected."
-
-            README.md content:
-            ${readmeContent}`
-                }],
-                max_tokens: 1000
-              })
-            });
-
-            const result = await response.json();
-            const duplicateAnalysis = result.choices[0].message.content;
-            
-            console.log('Duplicate analysis:', duplicateAnalysis);
-            
-            // Post comment if this is a pull request
-            if (context.eventName === 'pull_request') {
-              const commentBody = [
-                '### 🔍 **Duplicate Tool Detection Results**',
-                '',
-                duplicateAnalysis,
-                '',
-                '*This analysis was generated automatically by the duplicate detection workflow.*'
-              ].join('\n');
-
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                body: commentBody
-              });
-            }
+            If no duplicates are found, simply respond with "No duplicate
+            tools detected."
