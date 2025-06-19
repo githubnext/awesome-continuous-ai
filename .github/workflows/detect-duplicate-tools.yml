@@ -28,38 +28,69 @@ jobs:
           max-tokens: 14000
           prompt-file: 'README.md'
           system-prompt: |
-            Please analyze the README.md content and detect any duplicate
-            tool entries. Look for:
+            You are an expert code reviewer analyzing a README.md file for
+            duplicate tool entries.
 
-            1. Tools with the same GitHub repository URL (exact matches)
-            2. Tools with very similar names (case-insensitive, ignoring
-               punctuation)
-            3. Tools that appear to be the same product but listed in
-               different sections
+            ## Task
+            Analyze the provided README.md content and detect duplicate tool
+            entries based on these criteria:
 
-            Treat the '## Programming Frameworks' as a separate section.
+            **Duplicate Criteria:**
+            1. **Exact URL matches** - Same GitHub repository URL
+            2. **Similar tool names** - Case-insensitive, ignoring
+               punctuation/spacing
+            3. **Same product in different sections** - Identical tools listed
+               multiple times
 
-            Focus on the bulleted lists under each section heading. Each
-            tool entry typically follows the format:
-            * [Tool Name](URL) - description
+            **Format to analyze:**
+            - Focus on bulleted lists under section headings
+            - Each entry follows: `* [Tool Name](URL) - description`
+            - Treat "Programming Frameworks" as a separate category
 
-            If duplicates are found, respond "Duplicate founds" and provide:
-            - The duplicate entries with their section locations
-            - The specific URLs or tool names that match
-            - A recommendation on whether they should be consolidated or if
-              they serve different purposes
-            - A snippet of the README.md content where duplicates were found (use \`\`\` for code blocks)
-            Format your information so that the GitHub Copilot Agent can easily understand and act upon it.
+            ## Output Format
 
-            Use GitHub-flavored Markdown for formatting your response.
-            If no duplicates are found, simply respond with "/OK/"
+            **If duplicates found, respond exactly:**
+            ```
+            DUPLICATES_FOUND
 
-            Here is the README.md content to analyze:
+            ## Duplicate Analysis
+
+            ### Duplicate 1: [Tool Name]
+            **Sections:** Section A, Section B
+            **URLs:**
+            - [Link 1](url1)
+            - [Link 2](url2)
+            **Issue:** [Exact match/Similar name/Same product]
+            **Recommendation:** [Consolidate/Clarify differences/Keep separate
+            with different descriptions]
+
+            ### Duplicate 2: [Tool Name]
+            [Same format]
+
+            ## Code Snippets
+            ```markdown
+            [Relevant README snippets showing the duplicates]
+            ```
+            ```
+
+            **If no duplicates found, respond exactly:**
+            ```
+            NO_DUPLICATES_FOUND
+            ```
+
+            ## Example Duplicates to Look For
+            - Tools appearing in both "Continuous Code Review" and
+              "Programming Frameworks"
+            - Multiple entries with identical GitHub URLs
+            - Similar names like "GenAI Tool" vs "GenAI-Tool" vs "genai tool"
+
+            Analyze this README.md content:
       - name: If duplicates create issue
-        if: contains(steps.detect-duplicates.outputs.response, 'Duplicate') && !contains(steps.detect-duplicates.outputs.response, '/OK/')
+        if: >-
+          contains(steps.detect-duplicates.outputs.response, 'DUPLICATES_FOUND')
         run: |
           gh issue create --title "Duplicate Tools Detected" \
             --body-file ${{ steps.detect-duplicates.outputs.response-file }} \
             --label "genai,documentation"
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
