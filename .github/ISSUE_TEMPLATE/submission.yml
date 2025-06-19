@@ -1,0 +1,63 @@
+name: Submit a Resource
+description: Submit a new AI tool or resource to be added to the Awesome Continuous AI list
+title: "[SUBMISSION] "
+labels: ["submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The name of the AI tool or resource
+      placeholder: e.g., "GenAI Issue Labeller"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what this tool or resource does
+      placeholder: e.g., "A sample of using GenAIScript for automated labelling of issues"
+    validations:
+      required: true
+  
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL to the tool, resource, or documentation
+      placeholder: e.g., "https://github.com/pelikhan/action-genai-issue-labeller"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this resource belong to?
+      options:
+        - Continuous Intelligence
+        - Continuous Team Communication
+        - Continuous Triage
+        - Continuous Documentation
+        - Continuous Code Review
+        - Continuous Code Commenting
+        - Continuous Code Optimization
+        - Continuous Test Improvement
+        - Programming Frameworks
+        - Other (please specify in description)
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission Guidelines
+      description: Please confirm that your submission meets these criteria
+      options:
+        - label: The resource is related to AI-powered automation for software collaboration
+          required: true
+        - label: The resource is publicly accessible
+          required: true
+        - label: I have checked that this resource is not already listed in the repository
+          required: true
