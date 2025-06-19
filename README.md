@@ -55,6 +55,10 @@
 * [SoftwareTesting AI](https://softwaretesting.ai/) - A code quality platform that identifies coverage gaps and suggests how to resolve them
 * [DiffBlue](https://www.diffblue.com/ci-pipeline/) - Automate continuous unit testing at scale in CI
 
+### Utilities
+
+* [Add Reaction](https://github.com/pelikhan/action-add-reaction/) - Adds `eyes` reaction to an issue, pull request, ... as soon as the action starts. Fun feedback to notify the user that something started.
+
 ## Programming Frameworks
 
 Any library that can invoke an LLM inference service could be used to create a workflow.
