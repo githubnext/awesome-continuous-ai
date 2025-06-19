@@ -57,7 +57,7 @@ jobs:
             Here is the README.md content to analyze:
           prompt: |
             ${{ steps.readme.outputs.content }}
-          max-tokens: 7000
+          max-tokens: 200
       - name: If duplicates create issue
         if: contains(steps.detect-duplicates.outputs.response, '/OK/') == false
         run: |
