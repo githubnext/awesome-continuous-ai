@@ -20,12 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Read README content
+        id: readme
+        run: echo "content<<EOF" >> $GITHUB_OUTPUT && cat README.md >> $GITHUB_OUTPUT && echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Detect duplicate tools in README.md
         uses: actions/ai-inference@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           model: gpt-4o-mini
-          files: README.md
           prompt: |
             Please analyze the README.md content and detect any duplicate
             tool entries. Look for:
@@ -48,3 +51,7 @@ jobs:
 
             If no duplicates are found, simply respond with "No duplicate
             tools detected."
+
+            Here is the README.md content to analyze:
+
+            ${{ steps.readme.outputs.content }}
