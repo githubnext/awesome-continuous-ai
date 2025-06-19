@@ -42,10 +42,15 @@ jobs:
             3. **Same product in different sections** - Identical tools listed
                multiple times
 
+            **IMPORTANT: Ignore duplicates in Programming Frameworks sections**
+            - Do NOT flag as duplicates if one instance is under "Programming Frameworks" section
+            - Tools can legitimately appear in both main sections AND programming framework subsections
+            - Programming Frameworks subsections include: YAML, Shell Scripting, JavaScript/TypeScript, Markdown, etc.
+
             **Format to analyze:**
             - Focus on bulleted lists under section headings
             - Each entry follows: `* [Tool Name](URL) - description`
-            - Treat "Programming Frameworks" as a separate category
+            - Only flag duplicates between main sections (excluding Programming Frameworks)
 
             ## Output Format
 
@@ -79,10 +84,13 @@ jobs:
             ```
 
             ## Example Duplicates to Look For
-            - Tools appearing in both "Continuous Code Review" and
-              "Programming Frameworks"
-            - Multiple entries with identical GitHub URLs
-            - Similar names like "GenAI Tool" vs "GenAI-Tool" vs "genai tool"
+            - Tools appearing in multiple main sections (excluding Programming Frameworks)
+            - Multiple entries with identical GitHub URLs (excluding Programming Frameworks)
+            - Similar names like "GenAI Tool" vs "GenAI-Tool" vs "genai tool" (excluding Programming Frameworks)
+
+            **Examples of what NOT to flag:**
+            - A tool in "Continuous Code Review" and also in "Programming Frameworks → Markdown"
+            - A tool in "Continuous Triage" and also in "Programming Frameworks → JavaScript/TypeScript"
 
             Analyze this README.md content:
       - name: If duplicates create issue
