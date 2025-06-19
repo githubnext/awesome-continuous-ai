@@ -13,7 +13,7 @@ jobs:
   add-reaction:
     runs-on: ubuntu-latest
     steps:
-      - uses: pelikhan/action-add-reaction@v0  
+      - uses: pelikhan/action-add-reaction@v0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
   genai-issue-labeller:
