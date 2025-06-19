@@ -25,7 +25,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           model: openai/gpt-4o
           max-tokens: 14000
-          temperature: 0.2
           prompt-file: 'README.md'
           system-prompt: |
             Please analyze the README.md content and detect any duplicate
