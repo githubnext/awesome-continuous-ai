@@ -38,6 +38,7 @@
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
 * [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
 * [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
+- [Amazon Q Developer (/review)](https://aws.amazon.com/q/developer/build/) - "review your codebase for security vulnerabilities and code quality issues"
 
 ### Continuous Code Commenting
 
