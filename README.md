@@ -48,9 +48,8 @@
 * [SoftwareTesting AI](https://softwaretesting.ai/) - A code quality platform that identifies coverage gaps and suggests how to resolve them
 * [DiffBlue](https://www.diffblue.com/ci-pipeline/) - Automate continuous unit testing at scale in CI
 
-### Continuous Intelligence
+### Continuous Research
 
-* [Official Claude Code GitHub Action](https://docs.anthropic.com/en/docs/claude-code/github-actions) - allows you to use Claude Code to build any custom AI workflow within Actions.
 * [Open Journals: Find Similar Papers](https://github.com/openjournals/find-similar-papers) - Find similar journal articles using OpenAI embeddings
 
 ### Continuous Team Communication
@@ -84,10 +83,16 @@ On GitHub today, Continuous AI is supported in initial form by the combination o
 * [GitHub Actions](https://docs.github.com/en/actions)
 * [GitHub Models](https://docs.github.com/en/github-models/)
 
+## Agentic Frameworks
+
+General-purpose software agents can be used as the basis for automated workflows
+
+* [Copilot Coding Agent](https://docs.github.com/copilot/using-github-copilot/coding-agent) - "Find out how Copilot can work on GitHub issues and raise pull requests for your to review"
+* [Claude Code GitHub Actions](https://docs.anthropic.com/en/docs/claude-code/github-actions) - "Integrate Claude Code into your development workflow with GitHub Actions"
+
 ## Programming Frameworks
 
-Any library that can invoke an LLM inference service could be used to create a workflow.
-Some of them have builtin support for GitHub Actions and/or GitHub Models.
+Any library that can invoke an LLM inference service could be used to create a workflow. Some of them have builtin support for GitHub Actions and/or GitHub Models.
 
 ###  YAML (GitHub Actions Yaml)
 
