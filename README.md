@@ -31,6 +31,7 @@
 ### Continuous Documentation
 
 * [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
+* [Dosu](https://dosu.dev/) - You build. Dosu documents. Dosu turns your codebase into a living knowledge base that every team member can understand—from engineering to operations
 * [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
 * [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
 * [autodoc](https://github.com/context-labs/autodoc) - An experimental toolkit for auto-generating codebase documentation for git repositories
