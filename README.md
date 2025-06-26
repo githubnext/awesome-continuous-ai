@@ -2,12 +2,7 @@
 
 **[Continuous AI](https://githubnext.com/projects/continuous-ai/) is any use of automated AI to support software collaboration on any platform.** The term aligns with the established concept of Continuous Integration/Continuous Deployment (CI/CD). Just as CI/CD transformed software development by automating integration and deployment, Continuous AI covers the ways in which AI can be used to automate and enhance collaboration workflows.
 
-* [GitHub Next Project](https://githubnext.com/projects/continuous-ai/)
-
-On GitHub today, Continuous AI is supported in initial form by the combination of GitHub Actions and GitHub Models. The synergy between these features is at the core of Continuous AI at GitHub.
-
-* [GitHub Actions](https://docs.github.com/en/actions)
-* [GitHub Models](https://docs.github.com/en/github-models/)
+> NOTE: this list is provided in the spirit of other "awesome" lists common on the Web. Inclusion of a link does not in any way mean endorsement or recommendation. Some of the links may be out-of-date. All should be checked carefully for appropriateness, privacy, security, responsible AI and other key operational properties.
 
 ## Categories
 
@@ -67,6 +62,13 @@ On GitHub today, Continuous AI is supported in initial form by the combination o
 
 * [Add Reaction](https://github.com/pelikhan/action-add-reaction/) - Adds `eyes` reaction to an issue, pull request, ... as soon as the action starts. Fun feedback to notify the user that something started.
 
+## Platforms
+
+On GitHub today, Continuous AI is supported in initial form by the combination of GitHub Actions and GitHub Models. The synergy between these features is at the core of Continuous AI at GitHub.
+
+* [GitHub Actions](https://docs.github.com/en/actions)
+* [GitHub Models](https://docs.github.com/en/github-models/)
+
 ## Programming Frameworks
 
 Any library that can invoke an LLM inference service could be used to create a workflow.
@@ -88,3 +90,4 @@ Some of them have builtin support for GitHub Actions and/or GitHub Models.
 ### Markdown
 
 * [shippie](https://github.com/mattzcarey/shippie), uses Markdown based rules to define LLM-powered code reviews
+* [Agentic Workflow Definitions](https://github.com/danielmeppiel/awd-cli), build, package, share, and run agentic prompts and workflows across any LLM runtime
