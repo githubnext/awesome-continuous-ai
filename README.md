@@ -27,6 +27,7 @@
 * [GitHub Action Investigator](https://microsoft.github.io/genaiscript/samples/gai/) - automatically analyze a GitHub Action Workflow Job logs and attempts to determine the root cause of the issue
 * [Ultralytics Actions](https://github.com/ultralytics/actions) comprehensive linting and formatting suite including AI labeling and summarization
 * [Automattic Isue Triage](https://github.com/Automattic/jetpack/tree/f1b24e51a215eb85e17de7844794d0cb512bfc42/projects/github-actions/repo-gardening) - automatic issue labeling
+* [Dosu Automated Issue Triage](https://dosu.dev/blog/automating-github-issue-triage) - automating GitHub issue triage
 
 ### Continuous Documentation
 
