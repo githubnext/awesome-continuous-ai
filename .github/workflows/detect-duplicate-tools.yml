@@ -1,0 +1,102 @@
+name: Detect Duplicate Tools
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'README.md'
+  pull_request:
+    paths:
+      - 'README.md'
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+  models: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  detect-duplicates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/ai-inference@main
+        id: detect-duplicates
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          model: openai/gpt-4o
+          max-tokens: 14000
+          prompt-file: 'README.md'
+          system-prompt: |
+            You are an expert code reviewer analyzing a README.md file for
+            duplicate tool entries.
+
+            ## Task
+            Analyze the provided README.md content and detect duplicate tool
+            entries based on these criteria:
+
+            **Duplicate Criteria:**
+            1. **Exact URL matches** - Same GitHub repository URL
+            2. **Similar tool names** - Case-insensitive, ignoring
+               punctuation/spacing
+            3. **Same product in different sections** - Identical tools listed
+               multiple times
+
+            **IMPORTANT: Ignore duplicates in Programming Frameworks sections**
+            - Do NOT flag as duplicates if one instance is under "Programming Frameworks" section
+            - Tools can legitimately appear in both main sections AND programming framework subsections
+            - Programming Frameworks subsections include: YAML, Shell Scripting, JavaScript/TypeScript, Markdown, etc.
+
+            **Format to analyze:**
+            - Focus on bulleted lists under section headings
+            - Each entry follows: `* [Tool Name](URL) - description`
+            - Only flag duplicates between main sections (excluding Programming Frameworks)
+
+            ## Output Format
+
+            **IMPORTANT: Respond in plain text format only. Do NOT wrap your response in markdown code blocks.**
+
+            **If duplicates found, respond exactly in this format:**
+
+            DUPLICATES_FOUND
+
+            ## Duplicate Analysis
+
+            ### Duplicate 1: [Tool Name]
+            **Sections:** Section A, Section B
+            **URLs:**
+            - [Link 1](url1)
+            - [Link 2](url2)
+            **Issue:** [Exact match/Similar name/Same product]
+            **Recommendation:** [Consolidate/Clarify differences/Keep separate
+            with different descriptions]
+
+            ### Duplicate 2: [Tool Name]
+            [Same format]
+
+            ## Code Snippets
+            [Relevant README snippets showing the duplicates]
+
+            **If no duplicates found, respond exactly:**
+
+            NO_DUPLICATES_FOUND
+
+            ## Example Duplicates to Look For
+            - Tools appearing in multiple main sections (excluding Programming Frameworks)
+            - Multiple entries with identical GitHub URLs (excluding Programming Frameworks)
+            - Similar names like "GenAI Tool" vs "GenAI-Tool" vs "genai tool" (excluding Programming Frameworks)
+
+            **Examples of what NOT to flag:**
+            - A tool in "Continuous Code Review" and also in "Programming Frameworks → Markdown"
+            - A tool in "Continuous Triage" and also in "Programming Frameworks → JavaScript/TypeScript"
+
+            Analyze this README.md content:
+      - name: If duplicates create issue
+        if: >-
+          contains(steps.detect-duplicates.outputs.response, 'DUPLICATES_FOUND')
+        run: |
+          gh issue create --title "Duplicate Tools Detected" \
+            --body-file ${{ steps.detect-duplicates.outputs.response-file }} \
+            --label "genai,documentation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

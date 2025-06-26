@@ -92,7 +92,7 @@ Some of them have builtin support for GitHub Actions and/or GitHub Models.
 
 ### JavaScript/TypeScript
 
-* [GenAIScript](https://https://microsoft.github.io/genaiscript/), a scripting language for GitHub Actions that simplifies the use of AI models and tools in workflows
+* [GenAIScript](https://microsoft.github.io/genaiscript/), a scripting language for GitHub Actions that simplifies the use of AI models and tools in workflows
 
 ### Markdown
 
