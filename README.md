@@ -33,6 +33,8 @@
 * [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
 * [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
 * [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
+* [autodoc](https://github.com/context-labs/autodoc) - An experimental toolkit for auto-generating codebase documentation for git repositories
+* [docAider](https://github.com/ucl-docaider/docAider) - Automate the process of generating and reviewing code documentation for your repository through a multi-agent approach
 
 ### Continuous Code Review
 
@@ -57,6 +59,10 @@
 ### Continuous Moderation
 
 * [AI Community Moderator](https://github.com/benbalter/ai-community-moderator) - Analyze issues, pull requests, discussions, and comments for adherence to contribution guidelines and codes of conduct
+
+### Continuous AI Engineering
+
+* [Continuous alignment testing](https://github.com/thisisartium/continuous-alignment-testing) - A framework for implementing Continuous Alignment Testing (CAT) for LLM-based applications.
 
 ### Utilities
 
