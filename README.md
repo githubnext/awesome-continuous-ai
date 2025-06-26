@@ -35,6 +35,7 @@
 * [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
 * [autodoc](https://github.com/context-labs/autodoc) - An experimental toolkit for auto-generating codebase documentation for git repositories
 * [docAider](https://github.com/ucl-docaider/docAider) - Automate the process of generating and reviewing code documentation for your repository through a multi-agent approach
+* [ReadmeAI](https://github.com/eli64s/readme-ai) - Automatically generates README files using a robust repository processing engine and LLMs
 
 ### Continuous Code Review
 
