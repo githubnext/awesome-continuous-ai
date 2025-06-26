@@ -8,14 +8,18 @@
 
 ### Continuous Triage
 
+* [Ultralytics Actions](https://github.com/ultralytics/actions) comprehensive linting and formatting suite including AI labeling and summarization
+* [Automattic Isue Triage](https://github.com/Automattic/jetpack/tree/f1b24e51a215eb85e17de7844794d0cb512bfc42/projects/github-actions/repo-gardening) - automatic issue labeling
+* [Dosu Automated Issue Triage](https://dosu.dev/blog/automating-github-issue-triage) - automating GitHub issue triage
 * [GenAI Issue Labeller](https://github.com/pelikhan/action-genai-issue-labeller) - a sample of using GenAIScript for automated labelling of issues
 * [Detect Duplicate Issues, reusable action](https://github.com/pelikhan/action-genai-issue-dedup) - an example of a reusable action using using GitHub Actions, GitHub Models and GenAISCript for issue duplicate detection
 * [Detect Duplicate Issues, micro sample](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-duplicate-issues.yml) - an example of using GitHub Actions+Models for adhoc duplicate detection
 * [Detect Non-English Issues](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-non-english-issues.yml) - an example of using GitHub Actions+Models to detect issues in an unexpected language
+
+### Continuous Error Analysis
+
+* [GitHub Test Reporter](https://github.com/ctrf-io/github-test-reporter) - "Generate, publish and alert your team with detailed test results, including summaries, in-depth reports, failed test analyses, flaky test detection and AI analyses directly within your GitHub Actions CI/CD workflow and Pull Requests."
 * [GitHub Action Investigator](https://microsoft.github.io/genaiscript/samples/gai/) - automatically analyze a GitHub Action Workflow Job logs and attempts to determine the root cause of the issue
-* [Ultralytics Actions](https://github.com/ultralytics/actions) comprehensive linting and formatting suite including AI labeling and summarization
-* [Automattic Isue Triage](https://github.com/Automattic/jetpack/tree/f1b24e51a215eb85e17de7844794d0cb512bfc42/projects/github-actions/repo-gardening) - automatic issue labeling
-* [Dosu Automated Issue Triage](https://dosu.dev/blog/automating-github-issue-triage) - automating GitHub issue triage
 
 ### Continuous Documentation
 
@@ -98,10 +102,14 @@ Any library that can invoke an LLM inference service could be used to create a w
 
 * [actions/ai-inference](https://github.com/actions/ai-inference): a standard GitHub Action for invoking LLMs direct from YAML
 
-### Shell Scripting:
+### Shell Scripting
 
-* [llm](https://llm.datasette.io/) and [llm-github-models](https://github.com/tonybaloney/llm-github-models) to run LLMs in shel scripting
+* [llm](https://llm.datasette.io/) and [llm-github-models](https://github.com/tonybaloney/llm-github-models) to run LLMs in shell scripting
 * [ast-grep](https://ast-grep.github.io/): A tool for analyzing and transforming code using abstract syntax trees (ASTs)
+
+### Python Scripting
+
+* [llm Python API](https://llm.datasette.io/en/stable/python-api.html) to run LLMs in Python scripts
 
 ### JavaScript/TypeScript
 
