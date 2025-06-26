@@ -2,7 +2,7 @@
 
 **[Continuous AI](https://githubnext.com/projects/continuous-ai/) is any use of automated AI to support software collaboration on any platform.** The term aligns with the established concept of Continuous Integration/Continuous Deployment (CI/CD). Just as CI/CD transformed software development by automating integration and deployment, Continuous AI covers the ways in which AI can be used to automate and enhance collaboration workflows.
 
-> NOTE: this list is provided in the spirit of other "awesome" lists common on the Web. Inclusion of a link does not in any way mean endorsement or recommendation. Some of the links may be out-of-date. All should be checked carefully for appropriateness, privacy, security, responsible AI and other key operational properties.
+> NOTE: this list is provided in the spirit of other "awesome" lists common on the Web. Inclusion of a link does not in any way mean endorsement or recommendation. Some of the links may be out-of-date, some may be demonstrators of a concept, some may be commercial products. All should be checked carefully for appropriateness, privacy, security, responsible AI and other key operational properties.
 
 ## Categories
 
