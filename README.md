@@ -76,10 +76,6 @@
 
 * We have not yet included automated AI-powered security scanning and security code analysis in this list
 
-### Utilities
-
-* [Add Reaction](https://github.com/pelikhan/action-add-reaction/) - Adds `eyes` reaction to an issue, pull request, ... as soon as the action starts. Fun feedback to notify the user that something started.
-
 ## Platforms
 
 On GitHub today, Continuous AI is supported in initial form by the combination of GitHub Actions and GitHub Models. The synergy between these features is at the core of Continuous AI at GitHub.
@@ -119,6 +115,10 @@ Any library that can invoke an LLM inference service could be used to create a w
 
 * [shippie](https://github.com/mattzcarey/shippie), uses Markdown based rules to define LLM-powered code reviews
 * [Agentic Workflow Definitions](https://github.com/danielmeppiel/awd-cli), build, package, share, and run agentic prompts and workflows across any LLM runtime
+
+## Utilities
+
+* [Add Reaction](https://github.com/pelikhan/action-add-reaction/) - Adds `eyes` reaction to an issue, pull request, ... as soon as the action starts. Fun feedback to notify the user that something started.
 
 ## Similar Lists
 
