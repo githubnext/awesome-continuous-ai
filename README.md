@@ -111,3 +111,13 @@ Any library that can invoke an LLM inference service could be used to create a w
 
 * [shippie](https://github.com/mattzcarey/shippie), uses Markdown based rules to define LLM-powered code reviews
 * [Agentic Workflow Definitions](https://github.com/danielmeppiel/awd-cli), build, package, share, and run agentic prompts and workflows across any LLM runtime
+
+## Similar Lists
+
+* [Awesome Code AI](https://github.com/sourcegraph/awesome-code-ai)
+* [Awesome-Ai-Analytics](https://github.com/Snowboard-Software/awesome-ai-analytics)
+* [Awesome-Ai-Agents](https://github.com/e2b-dev/awesome-ai-agents)
+* [Awesome-Ai-Tools](https://github.com/ikaijua/Awesome-AITools)
+* [Awesome Ai DevTools](https://github.com/jamesmurdza/awesome-ai-devtools)
+* [AI Native Developer Tools Landscape](https://landscape.ainativedev.io/)
+
