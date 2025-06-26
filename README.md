@@ -67,14 +67,14 @@
 
 * [AI Community Moderator](https://github.com/benbalter/ai-community-moderator) - Analyze issues, pull requests, discussions, and comments for adherence to contribution guidelines and codes of conduct
 
-### Continuous Security
-
-* We have not yet included automated AI-powered security scanning and security code analysis in this list
-
 ### Continuous AI Engineering
 
 * [Continuous alignment testing](https://github.com/thisisartium/continuous-alignment-testing) - A framework for implementing Continuous Alignment Testing (CAT) for LLM-based applications.
 * [Using GitHub Models for continuous evals](https://docs.github.com/en/github-models/use-github-models/evaluating-ai-models) - Test and compare AI model outputs using evaluators and scoring metrics in GitHub Models
+
+### Continuous Security
+
+* We have not yet included automated AI-powered security scanning and security code analysis in this list
 
 ### Utilities
 
