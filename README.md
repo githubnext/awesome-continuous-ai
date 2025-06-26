@@ -19,9 +19,9 @@
 
 ### Continuous Documentation
 
-* [Penify.dev](https://www.penify.dev/) - Penify instantly generates and updates comprehensive documentation for your repository
-* [Dosu](https://dosu.dev/) - You build. Dosu documents. Dosu turns your codebase into a living knowledge base that every team member can understand—from engineering to operations
-* [DeepWiki](https://deepwiki.com/) - Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly
+* [Penify.dev](https://www.penify.dev/) - "Penify instantly generates and updates comprehensive documentation for your repository"
+* [Dosu](https://dosu.dev/) - "You build. Dosu documents. Dosu turns your codebase into a living knowledge base that every team member can understand—from engineering to operations"
+* [DeepWiki](https://deepwiki.com/) - "Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly"
 * [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
 * [autodoc](https://github.com/context-labs/autodoc) - An experimental toolkit for auto-generating codebase documentation for git repositories
 * [docAider](https://github.com/ucl-docaider/docAider) - Automate the process of generating and reviewing code documentation for your repository through a multi-agent approach
@@ -29,6 +29,7 @@
 
 ### Continuous Code Review
 
+* [GitHub Copilot Code Review](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) - Learn how to request a code review from GitHub Copilot.
 * [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
 * [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
