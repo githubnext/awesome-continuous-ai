@@ -114,7 +114,8 @@ Any library that can invoke an LLM inference service could be used to create a w
 ### Markdown
 
 * [shippie](https://github.com/mattzcarey/shippie), uses Markdown based rules to define LLM-powered code reviews
-* [Agentic Workflow Definitions](https://github.com/danielmeppiel/awd-cli), build, package, share, and run agentic prompts and workflows across any LLM runtime
+* [AWD CLI - Agentic Workflow Definitions](https://github.com/danielmeppiel/awd-cli), build, package, share, and run agentic prompts and workflows across any LLM runtime
+* [action-awd-cli](https://github.com/danielmeppiel/action-awd-cli), GitHub Action wrapping AWD CLI to run agentic prompts packaged with AWD
 
 ## Utilities
 
