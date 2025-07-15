@@ -98,6 +98,8 @@ Any library that can invoke an LLM inference service could be used to create a w
 ###  YAML (GitHub Actions Yaml)
 
 * [actions/ai-inference](https://github.com/actions/ai-inference): a standard GitHub Action for invoking LLMs direct from YAML
+* [FidelusAleksander/prompt-action](https://github.com/FidelusAleksander/prompt-action): A GitHub Action that lets you Prompt AI directly in your workflows with support for structured outputs and prompt templating.
+
 
 ### Shell Scripting
 
