@@ -75,14 +75,6 @@
 ### Continuous Security
 
 * [IntelliSAST](https://github.com/247arjun/ai-secure-code-review/) - Uses Generative AI to help with triage and prioritization of Static Analysis tool findings. Using tool-agnostic SARIF input with context engineering, it helps human reviewers focus on the most risky subset of a tool's findings
-* [Semgrep](https://semgrep.dev/) - Static analysis tool that uses AI to find bugs, security vulnerabilities, and anti-patterns in code with customizable rules
-* [Snyk Code](https://snyk.io/product/snyk-code/) - AI-powered static application security testing (SAST) that uses machine learning to find security vulnerabilities in real-time
-* [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) - Includes CodeQL static analysis, secret scanning, and dependency review with AI-enhanced security insights
-* [GitGuardian](https://www.gitguardian.com/) - AI-powered secrets detection and remediation platform that continuously monitors code repositories for exposed credentials and sensitive data
-* [Checkmarx One](https://checkmarx.com/product/application-security-platform/) - Application security platform with AI-enhanced static analysis, dependency scanning, and infrastructure-as-code security
-* [Veracode](https://www.veracode.com/products/binary-static-analysis-sast) - Static analysis security testing with AI-powered vulnerability detection and triage recommendations
-* [SonarQube](https://www.sonarsource.com/products/sonarqube/) - Code quality and security analysis platform with AI-enhanced vulnerability detection and technical debt assessment
-* [Prisma Cloud Code Security](https://docs.prismacloud.io/en/enterprise-edition/content-collections/application-security/get-started/get-started) - AI-powered infrastructure-as-code security scanning and policy enforcement for cloud-native applications
 
 ## Platforms
 
