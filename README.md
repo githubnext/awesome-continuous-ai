@@ -15,6 +15,7 @@
 * [Detect Duplicate Issues, reusable action](https://github.com/pelikhan/action-genai-issue-dedup) - an example of a reusable action using using GitHub Actions, GitHub Models and GenAISCript for issue duplicate detection
 * [Detect Duplicate Issues, micro sample](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-duplicate-issues.yml) - an example of using GitHub Actions+Models for adhoc duplicate detection
 * [Detect Non-English Issues](https://github.com/home-assistant/core/blob/dev/.github/workflows/detect-non-english-issues.yml) - an example of using GitHub Actions+Models to detect issues in an unexpected language
+* [Continuous AI Resolver](https://github.com/ashleywolf/continuous-ai-resolver) - Automatically resolve stale or already fixed GitHub issues and PRs powered by AI
 * [GitHub Test Reporter](https://github.com/ctrf-io/github-test-reporter) - "Generate, publish and alert your team with detailed test results, including summaries, in-depth reports, failed test analyses, flaky test detection and AI analyses directly within your GitHub Actions CI/CD workflow and Pull Requests."
 * [GitHub Action Investigator](https://microsoft.github.io/genaiscript/samples/gai/) - automatically analyze a GitHub Action Workflow Job logs and attempts to determine the root cause of the issue
 
