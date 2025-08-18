@@ -92,6 +92,7 @@ General-purpose software agents can be used as the basis for automated workflows
 * [Copilot Coding Agent](https://docs.github.com/copilot/using-github-copilot/coding-agent) - "Find out how Copilot can work on GitHub issues and raise pull requests for your to review"
 * [Claude Code GitHub Actions](https://docs.anthropic.com/en/docs/claude-code/github-actions) - "Integrate Claude Code into your development workflow with GitHub Actions"
 * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - "An AI Code assistant that provides support across the software development lifecycle from coding, testing, and deploying to troubleshooting and modernizing applications", with GitHub integration
+* [GitHub Agentic Workflows](https://github.com/githubnext/gh-aw) - Framework for creating AI-powered agentic workflows on GitHub
 
 ## Programming Frameworks
 
