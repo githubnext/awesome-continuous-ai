@@ -24,6 +24,7 @@
 * [Penify.dev](https://www.penify.dev/) - "Penify instantly generates and updates comprehensive documentation for your repository"
 * [Dosu](https://dosu.dev/) - "You build. Dosu documents. Dosu turns your codebase into a living knowledge base that every team member can understand—from engineering to operations"
 * [DeepWiki](https://deepwiki.com/) - "Automatically generates architecture diagrams, documentation, and links to source code to help you understand unfamiliar codebases quickly"
+* [Continuous Architectural Decision Records (cADR)](https://github.com/YotpoLtd/cADR/) - AI-powered ADR generation - Automatically capture and document architectural decisions as you code
 * [AI Translate Action](https://github.com/FidelusAleksander/ai-translate-action) - A GitHub Action that provides AI-powered text and file translation directly in your workflows.
 * [Translate Docs](https://github.com/TanStack-dev/translate-docs-action) - Translate your documentation into multiple languages automatically
 * [autodoc](https://github.com/context-labs/autodoc) - An experimental toolkit for auto-generating codebase documentation for git repositories
