@@ -46,6 +46,7 @@
 
 ### Continuous Code Optimization
 
+* [CatchMetrics](https://landing.catchmetrics.io/mcp) - A RUM web performance data tool that connects real world web performance data to AI agents via MCP
 * [CodeFlash](https://www.codeflash.ai/) ([GitHub App](https://github.com/marketplace/codeflash-ai)) - "CodeFlash finds the fastest version of your Python code through benchmarking with AI-powered optimization, verified for correctness every time"
 
 ### Continuous Test Improvement
