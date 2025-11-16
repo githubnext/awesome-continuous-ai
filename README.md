@@ -75,6 +75,7 @@
 
 * [Continuous alignment testing](https://github.com/thisisartium/continuous-alignment-testing) - A framework for implementing Continuous Alignment Testing (CAT) for LLM-based applications.
 * [Using GitHub Models for continuous evals](https://docs.github.com/en/github-models/use-github-models/evaluating-ai-models) - Test and compare AI model outputs using evaluators and scoring metrics in GitHub Models
+* [Continuous Claude](https://github.com/AnandChowdhary/continuous-claude) - Automated workflow that orchestrates Claude Code in a continuous loop, creating PRs to incrementally tackle larger tasks
 
 ### Continuous Security
 
