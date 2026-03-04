@@ -31,6 +31,7 @@
 * [docAider](https://github.com/ucl-docaider/docAider) - Automate the process of generating and reviewing code documentation for your repository through a multi-agent approach
 * [ReadmeAI](https://github.com/eli64s/readme-ai) - Automatically generates README files using a robust repository processing engine and LLMs
 * [action-continuous-translation](https://github.com/pelikhan/action-continuous-translation) - custom GitHub Action to maintain a translation of markdown files
+* [ai-i18n](https://github.com/i18n-actions/ai-i18n) - A GitHub Action that automatically translates i18n files (XLIFF, JSON) using LLM providers (Anthropic, OpenAI, Ollama) with glossary support, change detection, and reviewed translation preservation.
 
 ### Continuous Code Review
 
