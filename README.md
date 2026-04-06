@@ -4,6 +4,7 @@
 
 > NOTE: this list is provided in the spirit of other "awesome" lists common on the Web. Inclusion of a link does not in any way mean endorsement or recommendation. Some of the links may be out-of-date, some may be demonstrators, some may be commercial products. All should be checked carefully for appropriateness, privacy, security, responsible AI and other key operational properties.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for continuous multi-agent orchestration with Claude Code. Includes heartbeat monitoring and quality gates.
 ## Categories
 
 ### Continuous Triage
