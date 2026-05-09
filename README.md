@@ -139,4 +139,5 @@ Any library that can invoke an LLM inference service could be used to create a w
 * [Awesome-Ai-Tools](https://github.com/ikaijua/Awesome-AITools)
 * [Awesome Ai DevTools](https://github.com/jamesmurdza/awesome-ai-devtools)
 * [AI Native Developer Tools Landscape](https://landscape.ainativedev.io/)
+* [Awesome AI Startups](https://github.com/nowork-studio/awesome-ai-startups)
 
