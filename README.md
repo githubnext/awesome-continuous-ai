@@ -40,6 +40,7 @@
 * [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
 * [Aetherr Agency DeepDive](https://github.com/Aetherr-Agency/DeepDive/) - "Analyze the quality of your test files, providing insightful feedback and suggestions for improvement."
 - [Amazon Q Developer (/review)](https://aws.amazon.com/q/developer/build/) - "review your codebase for security vulnerabilities and code quality issues"
+* [HoverStare](https://github.com/liuchong/hoverstare) - "Open-source (1PL) repo-aware AI code review in Rust: agentic multi-pass review with voting, precise inline comments, and incremental finding tracking. GitHub Action, App, or self-hostable webhook service"
 
 ### Continuous Code Commenting
 
