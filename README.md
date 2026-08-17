@@ -79,7 +79,7 @@
 
 ### Continuous Security
 
-* We have not yet included automated AI-powered security scanning and security code analysis in this list
+* [Aeon vuln-scanner](https://github.com/aeonfun/aeon) - Scheduled skill that audits open-source repos for vulnerabilities, lands fixes, and runs the private disclosure pipeline end to end
 
 ## Platforms
 
@@ -97,6 +97,7 @@ General-purpose software agents can be used as the basis for automated workflows
 * [Amazon Q Developer](https://aws.amazon.com/q/developer/) - "An AI Code assistant that provides support across the software development lifecycle from coding, testing, and deploying to troubleshooting and modernizing applications", with GitHub integration
 * [Continue](https://github.com/continuedev/continue) - Framework for building and running custom agents across your IDE, terminal, and CI
 * [GitHub Agentic Workflows](https://github.com/githubnext/gh-aw) - Framework for creating AI-powered agentic workflows on GitHub
+* [Aeon Framework](https://github.com/aeonfun/aeon) - Autonomous agent framework running unattended on GitHub Actions; self-evaluating skills with persistent memory and a self-healing loop, dispatching to Claude Code, Codex, Grok and other harnesses
 
 ## Programming Frameworks
 
