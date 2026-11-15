@@ -58,6 +58,7 @@
 ### Continuous Research
 
 * [Open Journals: Find Similar Papers](https://github.com/openjournals/find-similar-papers) - Find similar journal articles using OpenAI embeddings
+* [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP server and research directory for small live-music venues across all 50 US states and booking contacts ([directory](https://nostairsplease.com/venues))
 
 ### Continuous Team Communication
 
