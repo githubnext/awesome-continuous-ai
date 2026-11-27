@@ -35,6 +35,7 @@
 ### Continuous Code Review
 
 * [GitHub Copilot Code Review](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) - Learn how to request a code review from GitHub Copilot.
+* [AdaptOrch Run and Evidence](https://github.com/marketplace/actions/adaptorch-run-and-evidence) ([Docs](https://adaptorch.com)) - GitHub Action (`dmae97/adaptorch-action`) that submits CI review or verification tasks to AdaptOrch's DAG routing and multi-model synthesis control plane and exposes execution and verification status as separate outputs.
 * [CodeRabbit](https://www.coderabbit.ai/) - "Supercharge your team to ship faster with the most advanced AI code reviews"
 * [Gemini Code Assist](https://developers.google.com/gemini-code-assist/docs/review-github-code) - "Review GitHub code using Gemini Code Assist"
 * [Shippie](https://github.com/mattzcarey/shippie) - Code review, secrets detection, bug fixes and more. TypeScript + Bun.
